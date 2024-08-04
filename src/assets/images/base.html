@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PNGTuber</title>
+  <style>
+    body {
+      margin: 0;
+      background: transparent;
+      overflow: hidden;
+    }
+    #vtuber-image {
+      width: 50%;
+      height: 50%;
+    }
+    .drag {
+      -webkit-app-region: drag;
+    }
+  </style>
+</head>
+<body>
+  <div class="drag">
+    <img id="vtuber-image" src="./base.png" alt="VTuber">
+  </div>
+  <script src="../../renderer.js"></script>
+</body>
+</html>
