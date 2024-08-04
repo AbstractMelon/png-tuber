@@ -23,12 +23,12 @@ function createWindow() {
     mainWindow = null;
   });
 
-  // Dragging functionality
-  mainWindow.on('will-resize', (event) => {
-    event.preventDefault();
-  });
-
-  // Allow dragging
+    // Dragging functionality
+    mainWindow.on('will-resize', (event) => {
+      event.preventDefault();
+    });
+  
+    // Allow dragging
   mainWindow.setIgnoreMouseEvents(false);
 }
 
